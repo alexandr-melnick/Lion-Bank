@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+body {
+  font-family: 'Open sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.42;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+  font-size: 58px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+h3 .news__name {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.prewiew__text {
+  font-size: 18px;
+}
+
+.contacts_description {
+  font-size: 11px;
+}
+
+.contacts_workhours {
+  font-size: 13px;
+}
+
+.menu__title .btn .news__date {
+  font-size: 14px;
+}
+
+.btn {
+  font-weight: 700;
+}
+
+
+.contacts__phone {
+  font-size: 26px;
+}
+
+.sentence__price {
+  font-size: 36px;
+}
+
+.paginator__item {
+  font-weight: bold;
+}
+

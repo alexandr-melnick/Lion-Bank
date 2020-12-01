@@ -3,31 +3,31 @@
 <head>
   <meta charset="UTF-8">
   <title>My first project at LoftSchool</title>
+  <link rel="stylesheet" href="main.css">
 </head>
 <body>
   <div class="wrapper">
-    
+
     <header class="hadder">
       <!-- логотип  -->
       <a href="/" class="logo">
         <img src="" alt="Lion Bank" class="logo__pic">
       </a>
       <!-- навигационное меню -->
-      <aside class="saidebar">
         <nav class="menu">
           <ul class="menu__list">
             <li class="menu__item">
-              <div class="menu__title">Главная</div>
+              <a href="#" class="menu__title">Главная</a>
             </li>
             <li class="menu__item">
-              <div class="menu__title">Услуги</div>
+              <a href="#" class="menu__title">Новости</a>
             </li>
             <li class="menu__item">
-              <div class="menu__title">Отзывы</div>
+              <a href="#" class="menu__title">Отзывы</a>
             </li>
           </ul>
         </nav>
-      </aside>
+
       <!-- контакты (нет всплывающего оповещения) -->
       <address calss="contacts">
         <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
@@ -36,12 +36,12 @@
     </header>
 
     <div class="page-content">
-      <main class="main-content">
+      <main class="main">
       <!--приветствие-->
-        <div class="text">
-          <h1 class="text__title">Не отказывай себе в желании быть первым</h1>
-          <div class="text__slogan">Банк с львиным характером</div>
-          <button class="text__button">ПОДРОБНЕЕ</button>
+        <div class="prewiew">
+          <h1 class="prewiew__title">Не отказывай себе в желании быть первым</h1>
+          <div class="prewiew__text">Банк с львиным характером</div>
+          <button class="prewiew__button btn">ПОДРОБНЕЕ</button>
         </div>
       <!--предложения банка-->
         <div class="sentence">
@@ -55,7 +55,7 @@
               <p class="sentence__description">Обслуживание карты</p>
               <div class="sentence__cashback">до 4 %</div>
               <p class="sentence__description">Кешбек за любые покупки</p>
-              <button class="sentence_button">ПОДРОБНЕЕ</button>
+              <button class="sentence_button btn">ПОДРОБНЕЕ</button>
             </li>
             <li class="sentence__item">
               <img src="" alt="Фон" class="sentence__background">
@@ -65,7 +65,7 @@
               <p class="sentence__description">Обслуживание карты</p>
               <div class="sentence__cashback">до 5 %</div>
               <p class="sentence__description">Кешбек за любые покупки</p>
-              <button class="sentence_button">ПОДРОБНЕЕ</button>
+              <button class="sentence_button btn">ПОДРОБНЕЕ</button>
             </li>
             <li class="sentence__item">
               <img src="" alt="Фон" class="sentence__background">
@@ -75,7 +75,7 @@
               <div class="sentence__description">Обслуживание карты</div>
               <div class="sentence__cashback">до 6 %</div>
               <div class="sentence__description">Кешбек за любые покупки</div>
-              <button class="sentence_button">ПОДРОБНЕЕ</button>
+              <button class="sentence_button btn">ПОДРОБНЕЕ</button>
             </li>
           </ul>
         </div>
@@ -115,7 +115,7 @@
             <img src="" alt="img" class="description__img">
             <h2 class="description">О банке</h2>
             <p class="description__text">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях.</p>
-            <button class="description__button">ПОДРОБНЕЕ</button>
+            <button class="description__button btn">ПОДРОБНЕЕ</button>
           </div>
       </main>
     </div>
@@ -139,12 +139,29 @@
           </ul>
         </nav>
       </aside>
+      <!-- социальные сети -->
       <ul class="social">
-        <li class="social__item"> <img src="" alt="Telegram" class="logo"></li>
-        <li class="social__item"> <img src="" alt="VK" class="logo"></li>
-        <li class="social__item"> <img src="" alt="Facebook" class="logo"></li>
-        <li class="social__item"> <img src="" alt="Instagram" class="logo"></li>
+        <li class="social__item"> 
+          <a href="#" class="social__link">
+            <img src="" alt="Telegram" class="logo">
+          </a>
+        </li>
+        <li class="social__item"> 
+          <a href="#" class="social__link">
+            <img src="" alt="VK" class="logo">
+          </a>
+        </li>
+        <li class="social__item"> 
+          <a href="#" class="social__link"><img src="" alt="Facebook" class="logo">
+          </a>
+        </li>
+        <li class="social__item"> 
+          <a href="#" class="social__link">
+            <img src="" alt="Instagram" class="logo">
+          </a>
+        </li>
       </ul>
+      <!-- контакты -->
       <address calss="contacts">
         <div class="contacts_description">Бесплатный звонок по России</div>
         <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
