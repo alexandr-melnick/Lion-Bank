@@ -41,7 +41,7 @@ p {
 
 .wrapper {
   width: 1920px;
-  margin: auto;
+  margin: 0 auto;
 }
 
 .main-page-wrapper {
