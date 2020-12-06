@@ -275,7 +275,7 @@ p {
 }
 
 .news {
-  margin-bottom: 52px;
+  margin-bottom: 46px;
 }
 
 .news__item {
@@ -346,7 +346,7 @@ p {
 .pager__item {
   display: inline-block;
   vertical-align: middle;
-  margin-right: 1px;
+  margin-right: 0;
 }
 
 .pager__item:last-child {
@@ -373,7 +373,7 @@ p {
 
 .section--marg-top-bottom {
   margin-top: 144px;
-  margin-bottom: 81px;
+  margin-bottom: 52px;
 }
 
 .about__desc,
@@ -425,6 +425,7 @@ p {
 }
 
 .footer-container {
+  height: 152px;
   margin-bottom: 0px;
 }
 
@@ -433,7 +434,7 @@ p {
 }
 
 .footer {
-  height: 152px;
+  margin-top: 28px;
   position: relative;
 }
 
