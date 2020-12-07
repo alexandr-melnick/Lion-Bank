@@ -6,6 +6,7 @@ body {
   background: #29282D;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  margin: 0;
 }
 
 a {
@@ -40,7 +41,6 @@ p {
 }
 
 .wrapper {
-  width: 1920px;
   margin: 0 auto;
 }
 
