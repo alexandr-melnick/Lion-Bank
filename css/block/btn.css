@@ -1,0 +1,28 @@
+.btn {
+  border-radius: 3px;
+  padding: 17px 39px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btn--color--ginger {
+  background: #DFB56D;
+}
+
+.btn--color--ginger:hover {
+  background: #D3A557;
+  box-shadow: 0px 8px 35px rgba(223, 181, 109, 0.35);
+}
+
+.btn--color-black {
+  background: #2B2B2B
+}
+
+.btn--color-black:hover {
+  background: #DFB56D;
+  box-shadow: 0px 8px 35px rgba(223, 181, 109, 0.35);
+}

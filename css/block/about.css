@@ -1,0 +1,46 @@
+.about {
+  display: flex;
+}
+
+.about:before {
+  content: "";
+  width: 490px;
+  height: 505px;
+  background: url("../../img/chess.jpg") center center / cover no-repeat;
+  display: block;
+}
+
+.about__desc {
+  background: #202123;
+  padding: 67px 82px;
+  padding-left: 81px;
+  padding-right: 160px;
+  max-width: 785px;
+  margin-left: -141px;
+  margin-top: 100px;
+  min-height: 455px;
+}
+
+.about__title {
+  font-weight: bold;
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.about__desc-text {
+  margin-bottom: 42px;
+  line-height: 1.1;
+}
+
+.about__desc-text p {
+  margin-bottom: 20px;
+  line-height: 1.7;
+}
+
+.about__desc-text p:last-child {
+  margin-bottom: 0;
+}
+
+.about__btn {
+  margin-top: 71px;
+}
