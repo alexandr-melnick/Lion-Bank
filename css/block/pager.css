@@ -2,9 +2,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  font-weight: bold;
 }
 
+.pager--color {
+  color: #000;
+}
 
+.pager__display--font-normal {
+  font-weight: normal;
+}
 
 .pager__display {
   margin-right: 30px;
@@ -26,6 +33,7 @@
 
 .pager__item--active .pager__link {
   background: #353439;
+  color: #fff;
 }
 
 .pager__link {
@@ -40,4 +48,5 @@
 
 .pager__link:hover {
   background: #353439;
+  color: #fff;
 }

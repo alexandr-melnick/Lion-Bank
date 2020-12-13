@@ -12,3 +12,7 @@
 @import url('./block/about.css');
 @import url('./block/footer.css');
 @import url('./block/socials.css');
+@import url('./block/top-line.css');
+@import url('./block/breadcrumbs.css');
+@import url('./block/page-content.css');
+@import url('./block/partners.css')
