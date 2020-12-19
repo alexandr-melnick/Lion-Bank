@@ -30,7 +30,7 @@
 }
 
 .form__input:focus {
-  outline: 2px solid #E5C288;
+  outline: 1px solid #E5C288;
 }
 
 .form__input:last-child {
