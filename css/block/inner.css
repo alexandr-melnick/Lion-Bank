@@ -27,6 +27,7 @@
   padding: 20px 30px;
   font-size: 18px;
   color: #1a1b1e;
+  border-radius: 5px
 }
 
 .form__input:focus {
