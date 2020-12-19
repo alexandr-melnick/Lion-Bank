@@ -31,6 +31,7 @@
 
 .service:hover .service__btn {
   background: #DFB56D;
+  transition: filter 0.5s;
 }
 
 .service__img {
@@ -61,10 +62,12 @@
 }
 
 .service__btn:hover .detail {
+  transition: filter 0.5s;
   display: none;
 }
 
 .service__btn:hover .send {
+  transition: filter 0.5s;
   display: inline;
 }
 

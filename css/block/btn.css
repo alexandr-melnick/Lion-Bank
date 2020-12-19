@@ -16,6 +16,7 @@
 .btn--color--ginger:hover {
   background: #D3A557;
   box-shadow: 0px 8px 35px rgba(223, 181, 109, 0.35);
+  transition: filter 0.5s;
 }
 
 .btn--color-black {
@@ -25,4 +26,14 @@
 .btn--color-black:hover {
   background: #DFB56D;
   box-shadow: 0px 8px 35px rgba(223, 181, 109, 0.35);
+  transition: filter 0.5s;
+}
+
+.btn--color-grey {
+  background: #8E8E8E;
+}
+
+.btn--color-grey:hover {
+  background: #2B2B2B;
+  transition: filter 0.5s;
 }

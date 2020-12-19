@@ -26,6 +26,7 @@
 
 .socials__item--icon--t .socials__link:hover {
   filter: brightness(1.5);
+  transition: filter 0.5s;
 }
 
 .socials__item--icon--vk .socials__link {
@@ -34,6 +35,7 @@
 
 .socials__item--icon--vk .socials__link:hover {
   filter: brightness(1.5);
+  transition: filter 0.5s;
 }
 
 .socials__item--icon--f .socials__link {
@@ -42,6 +44,7 @@
 
 .socials__item--icon--f .socials__link:hover {
   filter: brightness(1.5);
+  transition: filter 0.5s;
 }
 
 .socials__item--icon--in .socials__link {
@@ -50,4 +53,5 @@
 
 .socials__item--icon--in .socials__link:hover {
   filter: brightness(1.5);
+  transition: filter 0.5s;
 }

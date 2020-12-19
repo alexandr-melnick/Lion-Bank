@@ -49,4 +49,5 @@
 .pager__link:hover {
   background: #353439;
   color: #fff;
+  transition: filter 0.5s;
 }

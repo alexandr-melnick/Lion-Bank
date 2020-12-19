@@ -1,0 +1,18 @@
+.separator {
+  min-height: 363px;
+  color: #202020;
+  background: #E5C288 url('../../img/phone-welcome.png') right 27% bottom 110% no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.separator__content {
+  max-width: 45%;
+}
+
+.separator__title {
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 1.1;
+}
