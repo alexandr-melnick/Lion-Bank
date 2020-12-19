@@ -28,10 +28,11 @@
   font-size: 18px;
   color: #1a1b1e;
   border-radius: 5px
+  outline: none;
 }
 
 .form__input:focus {
-  outline: 1px solid #E5C288;
+  border: 1px solid #E5C288;
 }
 
 .form__input:last-child {
