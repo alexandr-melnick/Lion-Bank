@@ -12,6 +12,8 @@
 
 .dropdown {
   position: relative;
+  width: max-content;
+  margin-left: auto;
 }
 
 .dropdown__title {
